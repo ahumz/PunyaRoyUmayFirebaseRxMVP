@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@drawable/gradient_bg"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="15dp"
+>
+
+    <ImageView android:layout_width="200dp"
+               android:layout_height="150dp"
+               android:src="@drawable/logo"
+               android:layout_gravity="center_horizontal"    />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Tambah Data Transaksi"
+              android:textColor="@color/hitam"
+              android:textSize="30dp"
+    />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Nama item"
+              android:textColor="@color/hitam"
+              android:textSize="18dp"
+              android:layout_marginTop="15dp"
+    />
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/edt_nama"
+    />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Harga Item"
+              android:textColor="@color/hitam"
+              android:textSize="18dp"
+              android:layout_marginTop="15dp"
+    />
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/edt_harga"
+    />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Jumlah Item"
+              android:textColor="@color/hitam"
+              android:textSize="18dp"
+              android:layout_marginTop="15dp"
+    />
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/edt_jumlah"
+    />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Keterangan"
+              android:textColor="@color/hitam"
+              android:textSize="18dp"
+              android:layout_marginTop="15dp"
+    />
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/edt_keterangan"
+    />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Gambar"
+              android:textColor="@color/hitam"
+              android:textSize="18dp"
+              android:layout_marginTop="15dp"
+    />
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Browse"
+            android:id="@+id/btn_image"
+            android:background="@drawable/rounded_login"
+    />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="2"
+                  android:layout_marginTop="15dp"
+    >
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_menu"
+                android:layout_weight="1"
+                android:text="menu"
+                android:background="@drawable/rounded_decline"
+                android:textColor="@color/putih"
+                android:layout_marginRight="5dp"
+        />
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_submit"
+                android:layout_weight="1"
+                android:text="submit"
+                android:background="@drawable/rounded_confirm"
+                android:textColor="@color/putih"
+                android:layout_marginLeft="5dp"
+        />
+    </LinearLayout>
+</LinearLayout>

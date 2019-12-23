@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+        android:background="#57FFFFFF"
+        android:layout_margin="8dp"
+>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:background="#57FFFFFF"
+                  android:layout_height="match_parent"
+                  android:id="@+id/linear_1">
+        <ImageView
+                android:layout_width="110dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:layout_marginVertical="10dp"
+                android:layout_marginStart="8dp"
+                android:id="@+id/img_data"
+                android:src="@mipmap/ic_launcher_round"/>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:orientation="vertical"
+                      android:layout_marginStart="8dp"
+                      android:layout_marginTop="8dp"
+        >
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#065209"
+                    android:id="@+id/txt_nama"
+                    android:text="Nama"/>
+
+            <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#358888"
+                    android:id="@+id/txt_harga"
+                    android:text="Harga"/>
+
+            <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#358888"
+                    android:id="@+id/txt_jumlah"
+                    android:text="Quantity"/>
+
+            <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#358888"
+                    android:id="@+id/txt_keterangan"
+                    android:text="Keterangan"/>
+
+            <Button android:layout_width="match_parent"
+                    android:id="@+id/btn_delete"
+                    android:text="Hapus"
+                    android:textAllCaps="false"
+                    android:textSize="15sp"
+                    android:textColor="#fff"
+                    android:background="#A9DF0808"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="30dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

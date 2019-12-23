@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#0F32F1</color>
+
+    <color name="hitam">#000</color>
+    <color name="putih">#fff</color>
+
+    <color name="colorGradient1">#66F072</color>
+    <color name="colorGradient2">#60F7D4</color>
+
+    <color name="colorLogin1">#02F78B</color>
+    <color name="colorLogin2">#83F321</color>
+
+</resources>

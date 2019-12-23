@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@drawable/gradient_bg"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+>
+
+    <ImageView android:layout_width="250dp"
+               android:layout_height="200dp"
+               android:src="@drawable/logo"
+               android:layout_gravity="center_horizontal"    />
+
+    <TextView android:layout_width="400dp"
+              android:layout_height="60dp"
+              android:id="@+id/txt_add"
+              android:text="Add Transaction"
+              android:paddingStart="15dp"
+              android:textSize="32dp"
+              android:layout_marginTop="50dp"
+              android:textColor="@color/hitam"
+              android:background="@drawable/bg_menu"
+    />
+    <TextView android:layout_width="400dp"
+              android:layout_height="60dp"
+              android:id="@+id/txt_view"
+              android:text="View Transaction"
+              android:paddingStart="15dp"
+              android:layout_marginTop="20dp"
+              android:textSize="32dp"
+              android:textColor="@color/hitam"
+              android:background="@drawable/bg_menu"
+    />
+    <TextView android:layout_width="400dp"
+              android:layout_height="60dp"
+              android:id="@+id/txt_logout"
+              android:text="Logout"
+              android:layout_marginTop="100dp"
+              android:paddingStart="15dp"
+              android:textSize="32dp"
+              android:textColor="@color/hitam"
+              android:background="@drawable/bg_logout"
+    />
+
+
+</LinearLayout>

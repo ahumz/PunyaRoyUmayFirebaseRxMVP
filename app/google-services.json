@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "979926404964",
+    "firebase_url": "https://tugaskelompok1-781c1.firebaseio.com",
+    "project_id": "tugaskelompok1-781c1",
+    "storage_bucket": "tugaskelompok1-781c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979926404964:android:3872ca09998342e8d3f471",
+        "android_client_info": {
+          "package_name": "com.example.tugaskelompok1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979926404964-tcdu7qfj67g7e0ghltu6b4k47mb2kjgv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tugaskelompok1",
+            "certificate_hash": "52019e0f8cec9db708895dc419e6213a819548d8"
+          }
+        },
+        {
+          "client_id": "979926404964-q7ievks8aahhqripcu72f42l5k8s5vgi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuC51ikGj54vjL3itZw7IgIiU41iFt03E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979926404964-q7ievks8aahhqripcu72f42l5k8s5vgi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
